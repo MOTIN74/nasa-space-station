@@ -1,0 +1,14 @@
+
+.copy-right{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #00000024;
+    padding: 10px;
+}
+
+.copy-right a{
+    text-decoration: none;
+    color: rgb(250, 84, 54);
+}
