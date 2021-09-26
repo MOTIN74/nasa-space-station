@@ -20,7 +20,9 @@ const Expense = (props) => {
             <h3>Total Salary: ${totalSalary}</h3>
             <ul>
                 {
-                    expense.map( person => <li>{person.name}</li>)
+                    expense.map( person => <li>{person.name} <img src={person.img} className="img  rounded g-4 persion-image" alt="..."/>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </li>)
                 }
             </ul>
             <button className="btn btn-success m-2">Submit Expense</button>
