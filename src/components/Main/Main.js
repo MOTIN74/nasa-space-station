@@ -61,7 +61,7 @@ const Main = () => {
                    </Expense>
                </div>
                </div>
-               <h2 className="copy-right">Copyright &copy; Alltights reserved by <a href="https://www.nasa.gov/">NASA</a></h2>
+               <h2 className="copy-right">Copyright &copy; Alltights reserved by <a href="https://www.nasa.gov/">KHAN</a></h2>
         </div>
         
     );
